@@ -1,0 +1,55 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing / coverage / type checking
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.coverage
+.coverage.*
+coverage.xml
+.tox/
+.nox/
+ruff_cache/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc cache
+.cache/
+
